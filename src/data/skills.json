@@ -1,0 +1,173 @@
+[
+  {
+    "id": "lean",
+    "name": "Lean",
+    "cost": 1,
+    "target": "type",
+    "enemy": false,
+    "pool": "universal",
+    "desc": "This spin: turn 1 of your segments (from your largest other type) into a type you choose."
+  },
+  {
+    "id": "pinch",
+    "name": "Pinch",
+    "cost": 2,
+    "target": "enemySeg",
+    "enemy": true,
+    "pool": "universal",
+    "desc": "This spin: remove 1 enemy segment (wheel min 8)."
+  },
+  {
+    "id": "peek",
+    "name": "Peek",
+    "cost": 1,
+    "target": "none",
+    "enemy": true,
+    "pool": "universal",
+    "desc": "Reveal 3 fogged enemy segments for the rest of the fight."
+  },
+  {
+    "id": "brace",
+    "name": "Brace",
+    "cost": 1,
+    "target": "none",
+    "enemy": false,
+    "pool": "universal",
+    "desc": "Gain 4 Armor."
+  },
+  {
+    "id": "scrub",
+    "name": "Scrub",
+    "cost": 2,
+    "target": "none",
+    "enemy": false,
+    "pool": "universal",
+    "desc": "Remove one hazard from your wheel."
+  },
+  {
+    "id": "taunt",
+    "name": "Taunt",
+    "cost": 2,
+    "target": "type",
+    "enemy": true,
+    "pool": "universal",
+    "desc": "This spin: enemy gains 2 segments of a type you choose. Set up your counters."
+  },
+  {
+    "id": "doubledown",
+    "name": "Double Down",
+    "cost": 2,
+    "target": "none",
+    "enemy": false,
+    "pool": "universal",
+    "desc": "If this spin ties, the Pot triples instead of doubling."
+  },
+  {
+    "id": "bedrock",
+    "name": "Bedrock",
+    "cost": 2,
+    "target": "none",
+    "enemy": false,
+    "pool": "rock",
+    "desc": "Gain Armor equal to your Rock segment count."
+  },
+  {
+    "id": "landslide",
+    "name": "Landslide",
+    "cost": 2,
+    "target": "none",
+    "enemy": false,
+    "pool": "rock",
+    "desc": "Your next Rock win this fight rolls an extra die."
+  },
+  {
+    "id": "amend",
+    "name": "Amend",
+    "cost": 1,
+    "target": "enemySeg+type",
+    "enemy": true,
+    "pool": "paper",
+    "desc": "This spin: convert 1 enemy segment to a type you choose."
+  },
+  {
+    "id": "footnote",
+    "name": "Footnote",
+    "cost": 1,
+    "target": "none",
+    "enemy": true,
+    "pool": "paper",
+    "desc": "Ink 3 on the enemy. Each Ink makes your next enemy-targeting skill free."
+  },
+  {
+    "id": "snip",
+    "name": "Snip",
+    "cost": 1,
+    "target": "ownSeg",
+    "enemy": false,
+    "pool": "scissors",
+    "desc": "This spin: turn one of your plain segments into an Edge (crit on win)."
+  },
+  {
+    "id": "ignite",
+    "name": "Ignite",
+    "cost": 1,
+    "target": "none",
+    "enemy": true,
+    "pool": "flame",
+    "desc": "Apply 3 Burn to the enemy."
+  },
+  {
+    "id": "kindle",
+    "name": "Kindle",
+    "cost": 2,
+    "target": "none",
+    "enemy": true,
+    "pool": "flame",
+    "desc": "This spin: convert 2 enemy segments into Paper (fuel for Flame and Scissors)."
+  },
+  {
+    "id": "swell",
+    "name": "Swell",
+    "cost": 1,
+    "target": "none",
+    "enemy": false,
+    "pool": "tide",
+    "desc": "Gain 3 Flow (heal at end of turn, decaying)."
+  },
+  {
+    "id": "riptide",
+    "name": "Riptide",
+    "cost": 2,
+    "target": "none",
+    "enemy": true,
+    "pool": "tide",
+    "desc": "This spin: rotate every enemy type one step (Rock>Paper>Scissors>Flame>Tide>Rock)."
+  },
+  {
+    "id": "quake",
+    "name": "Quake",
+    "cost": 2,
+    "target": "none",
+    "enemy": false,
+    "pool": "signature",
+    "desc": "Your next Rock win also hits every enemy in a pack, and rolls +1 die."
+  },
+  {
+    "id": "clause",
+    "name": "Clause",
+    "cost": 1,
+    "target": "type+type",
+    "enemy": true,
+    "pool": "signature",
+    "desc": "Permanent: in 2 turns, all enemy segments of one type become another type for the rest of the fight."
+  },
+  {
+    "id": "redact",
+    "name": "Redact",
+    "cost": 2,
+    "target": "enemySeg2",
+    "enemy": true,
+    "pool": "signature",
+    "desc": "This spin: delete 2 enemy segments of your choice (wheel min 8)."
+  }
+]

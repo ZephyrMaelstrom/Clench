@@ -1,0 +1,16 @@
+{
+  "name": "CLENCH",
+  "short_name": "CLENCH",
+  "description": "A five-type rock-paper-scissors roguelite. Shape the odds, then spin.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "#120d10",
+  "theme_color": "#120d10",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

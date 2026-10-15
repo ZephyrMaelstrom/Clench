@@ -1,0 +1,73 @@
+[
+  {
+    "id": "brawler",
+    "name": "Brawler",
+    "title": "Stone-Clan Unclenched",
+    "hp": 75,
+    "wheel": {
+      "rock": 4,
+      "paper": 2,
+      "scissors": 2,
+      "flame": 2,
+      "tide": 2
+    },
+    "might": 1,
+    "grip": 3,
+    "luck": 0,
+    "insight": 1,
+    "nerve": 0,
+    "passives": [
+      "unbreakable",
+      "grit"
+    ],
+    "passiveText": [
+      "Unbreakable: your Rock segments can't be removed, changed by enemies, or hazarded.",
+      "Grit: each lost spin gives +1 Might (dice step) for the rest of the fight."
+    ],
+    "skills": [
+      "lean",
+      "brace",
+      "bedrock",
+      "pinch"
+    ],
+    "signature": "quake",
+    "grainChoice": false,
+    "blurb": "Rock tank. Gets stronger the harder he's hit."
+  },
+  {
+    "id": "scribe",
+    "name": "Scribe",
+    "title": "Runaway Bureau Clerk",
+    "hp": 60,
+    "wheel": {
+      "rock": 2,
+      "paper": 2,
+      "scissors": 2,
+      "flame": 2,
+      "tide": 2
+    },
+    "might": 1,
+    "grip": 4,
+    "luck": 0,
+    "insight": 2,
+    "nerve": 0,
+    "passives": [
+      "clauses",
+      "paperwork"
+    ],
+    "passiveText": [
+      "Grain: choose 2 extra segments at the start of the run.",
+      "Paperwork: every enemy-targeting skill also gives you 2 Armor.",
+      "Clauses: write permanent delayed rules onto the enemy wheel."
+    ],
+    "skills": [
+      "lean",
+      "footnote",
+      "amend",
+      "clause"
+    ],
+    "signature": "redact",
+    "grainChoice": true,
+    "blurb": "Paper control. Rewrites the enemy's wheel."
+  }
+]

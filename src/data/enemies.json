@@ -1,0 +1,455 @@
+[
+  {
+    "id": "pebble_rat",
+    "name": "Pebble Rats",
+    "tier": "easy",
+    "act": 1,
+    "hp": 7,
+    "members": 3,
+    "might": 0,
+    "wheel": {
+      "rock": 4,
+      "paper": 1,
+      "scissors": 1,
+      "flame": 1,
+      "tide": 1
+    },
+    "affixes": [
+      {
+        "kind": "pack"
+      }
+    ],
+    "intents": [
+      {
+        "kind": "lean",
+        "type": "rock",
+        "n": 1,
+        "w": 2
+      },
+      {
+        "kind": "rest",
+        "w": 1
+      }
+    ],
+    "desc": "A pack of three. Shared wheel, but every rat bites."
+  },
+  {
+    "id": "clan_bruiser",
+    "name": "Clan Bruiser",
+    "tier": "easy",
+    "act": 1,
+    "hp": 22,
+    "might": 1,
+    "wheel": {
+      "rock": 6,
+      "paper": 1,
+      "scissors": 2,
+      "flame": 2,
+      "tide": 1
+    },
+    "affixes": [
+      {
+        "kind": "vengeful"
+      }
+    ],
+    "intents": [
+      {
+        "kind": "guard",
+        "value": 4,
+        "w": 1
+      },
+      {
+        "kind": "lean",
+        "type": "rock",
+        "n": 1,
+        "w": 2
+      },
+      {
+        "kind": "charge",
+        "w": 1
+      }
+    ],
+    "desc": "Vengeful: +1 dice step each time it loses a spin."
+  },
+  {
+    "id": "kindling_imp",
+    "name": "Kindling Imp",
+    "tier": "easy",
+    "act": 1,
+    "hp": 20,
+    "might": 0,
+    "wheel": {
+      "rock": 1,
+      "paper": 2,
+      "scissors": 2,
+      "flame": 6,
+      "tide": 1
+    },
+    "affixes": [
+      {
+        "kind": "burnOnWin",
+        "value": 2
+      }
+    ],
+    "intents": [
+      {
+        "kind": "burn",
+        "value": 2,
+        "w": 1
+      },
+      {
+        "kind": "lean",
+        "type": "flame",
+        "n": 1,
+        "w": 2
+      }
+    ],
+    "desc": "Its wins set you on fire (2 Burn)."
+  },
+  {
+    "id": "ash_moth",
+    "name": "Ash Moth",
+    "tier": "easy",
+    "act": 1,
+    "hp": 16,
+    "might": 0,
+    "wheel": {
+      "rock": 2,
+      "paper": 3,
+      "scissors": 2,
+      "flame": 3,
+      "tide": 2
+    },
+    "affixes": [
+      {
+        "kind": "fogged",
+        "value": 8
+      },
+      {
+        "kind": "fleeAfter",
+        "value": 4
+      }
+    ],
+    "intents": [
+      {
+        "kind": "rest",
+        "w": 1
+      },
+      {
+        "kind": "lean",
+        "type": "flame",
+        "n": 1,
+        "w": 1
+      }
+    ],
+    "desc": "Fogged. Flees after 4 turns, so kill it fast."
+  },
+  {
+    "id": "cinder_hound",
+    "name": "Cinder Hound",
+    "tier": "normal",
+    "act": 1,
+    "hp": 26,
+    "might": 1,
+    "wheel": {
+      "rock": 3,
+      "paper": 1,
+      "scissors": 2,
+      "flame": 5,
+      "tide": 1
+    },
+    "affixes": [
+      {
+        "kind": "burnFrenzy"
+      }
+    ],
+    "intents": [
+      {
+        "kind": "burn",
+        "value": 3,
+        "w": 1
+      },
+      {
+        "kind": "lean",
+        "type": "flame",
+        "n": 1,
+        "w": 1
+      },
+      {
+        "kind": "charge",
+        "w": 1
+      }
+    ],
+    "desc": "+1 dice step while you are Burning."
+  },
+  {
+    "id": "quarry_golem",
+    "name": "Quarry Golem",
+    "tier": "normal",
+    "act": 1,
+    "hp": 24,
+    "might": 2,
+    "wheel": {
+      "rock": 7,
+      "paper": 1,
+      "scissors": 1,
+      "flame": 2,
+      "tide": 1
+    },
+    "affixes": [
+      {
+        "kind": "bulwark",
+        "type": "scissors"
+      }
+    ],
+    "intents": [
+      {
+        "kind": "guard",
+        "value": 5,
+        "w": 2
+      },
+      {
+        "kind": "rest",
+        "w": 1
+      }
+    ],
+    "desc": "Bulwark: immune to Scissors damage. Heavy hits, lots of Armor."
+  },
+  {
+    "id": "oathbreaker",
+    "name": "Oathbreaker",
+    "tier": "normal",
+    "act": 1,
+    "hp": 26,
+    "might": 2,
+    "wheel": {
+      "rock": 3,
+      "paper": 3,
+      "scissors": 2,
+      "flame": 2,
+      "tide": 2
+    },
+    "affixes": [
+      {
+        "kind": "mimic"
+      }
+    ],
+    "intents": [
+      {
+        "kind": "mimicry",
+        "w": 1
+      }
+    ],
+    "desc": "Mimic: copies your biggest type on odd turns, then betrays it on even turns."
+  },
+  {
+    "id": "coal_acolyte",
+    "name": "Coal Acolyte",
+    "tier": "normal",
+    "act": 1,
+    "hp": 22,
+    "might": 1,
+    "wheel": {
+      "rock": 1,
+      "paper": 2,
+      "scissors": 2,
+      "flame": 4,
+      "tide": 3
+    },
+    "affixes": [
+      {
+        "kind": "saboteur",
+        "hazard": "blank"
+      }
+    ],
+    "intents": [
+      {
+        "kind": "heal",
+        "value": 4,
+        "w": 1
+      },
+      {
+        "kind": "lean",
+        "type": "tide",
+        "n": 1,
+        "w": 1
+      },
+      {
+        "kind": "hazard",
+        "hazard": "fuse",
+        "w": 1
+      }
+    ],
+    "desc": "Saboteur: each of its wins adds a Blank to your wheel. Plants Fuses."
+  },
+  {
+    "id": "rot_grub",
+    "name": "Rot Grub",
+    "tier": "normal",
+    "act": 1,
+    "hp": 20,
+    "might": 1,
+    "wheel": {
+      "rock": 2,
+      "paper": 2,
+      "scissors": 2,
+      "flame": 2,
+      "tide": 4
+    },
+    "affixes": [
+      {
+        "kind": "shifting"
+      }
+    ],
+    "intents": [
+      {
+        "kind": "hazard",
+        "hazard": "rot",
+        "w": 1
+      },
+      {
+        "kind": "rest",
+        "w": 2
+      }
+    ],
+    "desc": "Shifting: its types rotate each turn. Spreads Rot onto your wheel."
+  },
+  {
+    "id": "clan_warchief",
+    "name": "Clan Warchief",
+    "tier": "elite",
+    "act": 1,
+    "hp": 38,
+    "might": 2,
+    "wheel": {
+      "rock": 5,
+      "paper": 1,
+      "scissors": 1,
+      "flame": 1,
+      "tide": 4
+    },
+    "affixes": [
+      {
+        "kind": "bulwark",
+        "type": "paper"
+      },
+      {
+        "kind": "potArmor",
+        "value": 3
+      }
+    ],
+    "intents": [
+      {
+        "kind": "guard",
+        "value": 3,
+        "w": 1
+      },
+      {
+        "kind": "lean",
+        "type": "tide",
+        "n": 1,
+        "w": 1
+      },
+      {
+        "kind": "charge",
+        "w": 1
+      },
+      {
+        "kind": "hazard",
+        "hazard": "lock",
+        "w": 1
+      }
+    ],
+    "desc": "ELITE. Immune to Paper. Gains 3 Armor every time the Pot grows."
+  },
+  {
+    "id": "ember_priestess",
+    "name": "Ember Priestess",
+    "tier": "elite",
+    "act": 1,
+    "hp": 36,
+    "might": 1,
+    "wheel": {
+      "rock": 1,
+      "paper": 2,
+      "scissors": 2,
+      "flame": 5,
+      "tide": 2
+    },
+    "affixes": [
+      {
+        "kind": "convertTide"
+      },
+      {
+        "kind": "burnOnWin",
+        "value": 1
+      },
+      {
+        "kind": "hoarder"
+      }
+    ],
+    "intents": [
+      {
+        "kind": "burn",
+        "value": 3,
+        "w": 1
+      },
+      {
+        "kind": "lean",
+        "type": "flame",
+        "n": 1,
+        "w": 1
+      },
+      {
+        "kind": "heal",
+        "value": 5,
+        "w": 1
+      }
+    ],
+    "desc": "ELITE. Converts one of your Tide segments to Paper each turn. Hoarder: ties grow the Pot twice."
+  },
+  {
+    "id": "slag_twins",
+    "name": "The Slag Twins",
+    "tier": "elite",
+    "act": 1,
+    "hp": 24,
+    "members": 2,
+    "might": 1,
+    "wheel": {
+      "rock": 4,
+      "paper": 1,
+      "scissors": 2,
+      "flame": 4,
+      "tide": 1
+    },
+    "affixes": [
+      {
+        "kind": "pack"
+      },
+      {
+        "kind": "enrage"
+      }
+    ],
+    "intents": [
+      {
+        "kind": "lean",
+        "type": "flame",
+        "n": 1,
+        "w": 1
+      },
+      {
+        "kind": "lean",
+        "type": "rock",
+        "n": 1,
+        "w": 1
+      },
+      {
+        "kind": "guard",
+        "value": 4,
+        "w": 1
+      }
+    ],
+    "desc": "ELITE. Two bodies, one wheel. Killing one enrages the other (+2 dice steps)."
+  }
+]
